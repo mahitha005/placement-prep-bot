@@ -1,0 +1,540 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "title": "Two Sum",
+      "topic": "Array",
+      "difficulty": "Easy",
+      "companies": [
+        "Amazon",
+        "Microsoft"
+      ],
+      "link": "https://leetcode.com/problems/two-sum"
+    },
+    {
+      "id": 2,
+      "title": "Best Time to Buy and Sell Stock",
+      "topic": "Array",
+      "difficulty": "Easy",
+      "companies": [
+        "Amazon",
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock"
+    },
+    {
+      "id": 3,
+      "title": "Product of Array Except Self",
+      "topic": "Array",
+      "difficulty": "Medium",
+      "companies": [
+        "Facebook",
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/product-of-array-except-self"
+    },
+    {
+      "id": 4,
+      "title": "Maximum Subarray (Kadane)",
+      "topic": "Array",
+      "difficulty": "Easy",
+      "companies": [
+        "Amazon",
+        "Apple"
+      ],
+      "link": "https://leetcode.com/problems/maximum-subarray"
+    },
+    {
+      "id": 5,
+      "title": "Merge Intervals",
+      "topic": "Array",
+      "difficulty": "Medium",
+      "companies": [
+        "Google",
+        "Meta"
+      ],
+      "link": "https://leetcode.com/problems/merge-intervals"
+    },
+    {
+      "id": 6,
+      "title": "Longest Consecutive Sequence",
+      "topic": "Hashing",
+      "difficulty": "Medium",
+      "companies": [
+        "Google",
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/longest-consecutive-sequence"
+    },
+    {
+      "id": 7,
+      "title": "Valid Anagram",
+      "topic": "String",
+      "difficulty": "Easy",
+      "companies": [
+        "Bloomberg"
+      ],
+      "link": "https://leetcode.com/problems/valid-anagram"
+    },
+    {
+      "id": 8,
+      "title": "Group Anagrams",
+      "topic": "String",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon",
+        "Microsoft"
+      ],
+      "link": "https://leetcode.com/problems/group-anagrams"
+    },
+    {
+      "id": 9,
+      "title": "Longest Substring Without Repeating Characters",
+      "topic": "String",
+      "difficulty": "Medium",
+      "companies": [
+        "Google",
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters"
+    },
+    {
+      "id": 10,
+      "title": "Valid Parentheses",
+      "topic": "Stack",
+      "difficulty": "Easy",
+      "companies": [
+        "Amazon",
+        "Flipkart"
+      ],
+      "link": "https://leetcode.com/problems/valid-parentheses"
+    },
+    {
+      "id": 11,
+      "title": "Min Stack",
+      "topic": "Stack",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/min-stack"
+    },
+    {
+      "id": 12,
+      "title": "Daily Temperatures",
+      "topic": "Stack",
+      "difficulty": "Medium",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/daily-temperatures"
+    },
+    {
+      "id": 13,
+      "title": "Binary Search",
+      "topic": "Searching",
+      "difficulty": "Easy",
+      "companies": [
+        "Microsoft"
+      ],
+      "link": "https://leetcode.com/problems/binary-search"
+    },
+    {
+      "id": 14,
+      "title": "Search in Rotated Sorted Array",
+      "topic": "Searching",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon",
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/search-in-rotated-sorted-array"
+    },
+    {
+      "id": 15,
+      "title": "Kth Largest Element in an Array",
+      "topic": "Heap",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/kth-largest-element-in-an-array"
+    },
+    {
+      "id": 16,
+      "title": "Merge K Sorted Lists",
+      "topic": "Heap",
+      "difficulty": "Hard",
+      "companies": [
+        "Amazon",
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/merge-k-sorted-lists"
+    },
+    {
+      "id": 17,
+      "title": "Implement Queue Using Stacks",
+      "topic": "Queue",
+      "difficulty": "Easy",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/implement-queue-using-stacks"
+    },
+    {
+      "id": 18,
+      "title": "LRU Cache",
+      "topic": "Design",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon",
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/lru-cache"
+    },
+    {
+      "id": 19,
+      "title": "Min Stack (Design)",
+      "topic": "Design",
+      "difficulty": "Easy",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/min-stack"
+    },
+    {
+      "id": 20,
+      "title": "Rotate Image",
+      "topic": "Matrix",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/rotate-image"
+    },
+    {
+      "id": 21,
+      "title": "Spiral Matrix",
+      "topic": "Matrix",
+      "difficulty": "Medium",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/spiral-matrix"
+    },
+    {
+      "id": 22,
+      "title": "Set Matrix Zeroes",
+      "topic": "Matrix",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/set-matrix-zeroes"
+    },
+    {
+      "id": 23,
+      "title": "Unique Paths",
+      "topic": "Dynamic Programming",
+      "difficulty": "Medium",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/unique-paths"
+    },
+    {
+      "id": 24,
+      "title": "Climbing Stairs",
+      "topic": "Dynamic Programming",
+      "difficulty": "Easy",
+      "companies": [
+        "Apple"
+      ],
+      "link": "https://leetcode.com/problems/climbing-stairs"
+    },
+    {
+      "id": 25,
+      "title": "Coin Change",
+      "topic": "Dynamic Programming",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/coin-change"
+    },
+    {
+      "id": 26,
+      "title": "Longest Increasing Subsequence",
+      "topic": "Dynamic Programming",
+      "difficulty": "Medium",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/longest-increasing-subsequence"
+    },
+    {
+      "id": 27,
+      "title": "Edit Distance",
+      "topic": "Dynamic Programming",
+      "difficulty": "Hard",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/edit-distance"
+    },
+    {
+      "id": 28,
+      "title": "Combination Sum",
+      "topic": "Backtracking",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/combination-sum"
+    },
+    {
+      "id": 29,
+      "title": "Permutations",
+      "topic": "Backtracking",
+      "difficulty": "Medium",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/permutations"
+    },
+    {
+      "id": 30,
+      "title": "Subsets",
+      "topic": "Backtracking",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/subsets"
+    },
+    {
+      "id": 31,
+      "title": "Word Search",
+      "topic": "Backtracking",
+      "difficulty": "Medium",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/word-search"
+    },
+    {
+      "id": 32,
+      "title": "Number of Islands",
+      "topic": "Graph",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon",
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/number-of-islands"
+    },
+    {
+      "id": 33,
+      "title": "Clone Graph",
+      "topic": "Graph",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/clone-graph"
+    },
+    {
+      "id": 34,
+      "title": "Course Schedule",
+      "topic": "Graph",
+      "difficulty": "Medium",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/course-schedule"
+    },
+    {
+      "id": 35,
+      "title": "Pacific Atlantic Water Flow",
+      "topic": "Graph",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/pacific-atlantic-water-flow"
+    },
+    {
+      "id": 36,
+      "title": "Symmetric Tree",
+      "topic": "Tree",
+      "difficulty": "Easy",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/symmetric-tree"
+    },
+    {
+      "id": 37,
+      "title": "Binary Tree Level Order Traversal",
+      "topic": "Tree",
+      "difficulty": "Medium",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/binary-tree-level-order-traversal"
+    },
+    {
+      "id": 38,
+      "title": "Validate Binary Search Tree",
+      "topic": "Tree",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/validate-binary-search-tree"
+    },
+    {
+      "id": 39,
+      "title": "Lowest Common Ancestor of a BST",
+      "topic": "Tree",
+      "difficulty": "Medium",
+      "companies": [
+        "Facebook"
+      ],
+      "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree"
+    },
+    {
+      "id": 40,
+      "title": "Serialize and Deserialize Binary Tree",
+      "topic": "Tree",
+      "difficulty": "Hard",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree"
+    },
+    {
+      "id": 41,
+      "title": "Reorder List",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/reorder-list"
+    },
+    {
+      "id": 42,
+      "title": "Reverse Linked List",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "companies": [
+        "Microsoft"
+      ],
+      "link": "https://leetcode.com/problems/reverse-linked-list"
+    },
+    {
+      "id": 43,
+      "title": "Linked List Cycle",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/linked-list-cycle"
+    },
+    {
+      "id": 44,
+      "title": "Merge Two Sorted Lists",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/merge-two-sorted-lists"
+    },
+    {
+      "id": 45,
+      "title": "Add Two Numbers",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/add-two-numbers"
+    },
+    {
+      "id": 46,
+      "title": "Trapping Rain Water",
+      "topic": "Two Pointers",
+      "difficulty": "Hard",
+      "companies": [
+        "Amazon",
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/trapping-rain-water"
+    },
+    {
+      "id": 47,
+      "title": "Container With Most Water",
+      "topic": "Two Pointers",
+      "difficulty": "Medium",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/container-with-most-water"
+    },
+    {
+      "id": 48,
+      "title": "3Sum",
+      "topic": "Two Pointers",
+      "difficulty": "Medium",
+      "companies": [
+        "Amazon"
+      ],
+      "link": "https://leetcode.com/problems/3sum"
+    },
+    {
+      "id": 49,
+      "title": "4Sum",
+      "topic": "Two Pointers",
+      "difficulty": "Medium",
+      "companies": [
+        "Facebook"
+      ],
+      "link": "https://leetcode.com/problems/4sum"
+    },
+    {
+      "id": 50,
+      "title": "Find Minimum in Rotated Sorted Array",
+      "topic": "Searching",
+      "difficulty": "Medium",
+      "companies": [
+        "Google"
+      ],
+      "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array"
+    }
+  ],
+  "userProgress": [
+    {
+      "questionId": 9,
+      "status": "solved",
+      "date": "2025-12-08"
+    },
+    {
+      "questionId": 1,
+      "status": "solved",
+      "date": "2025-12-08"
+    },
+    {
+      "questionId": 3,
+      "status": "solved",
+      "date": "2025-12-08"
+    },
+    {
+      "questionId": 20,
+      "status": "solved",
+      "date": "2025-12-08"
+    }
+  ]
+}
