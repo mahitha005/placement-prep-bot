@@ -1,25 +1,43 @@
+// public/script.js
+
 const chatWindow = document.getElementById("chat-window");
 const input = document.getElementById("message-input");
 const sendBtn = document.getElementById("send-btn");
 
-function addMessage(sender, text) {
+// Helper to escape text so user messages can't inject HTML
+function escapeHtml(unsafe) {
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function addMessage(sender, textHtml, isHtml = false) {
   const div = document.createElement("div");
   div.classList.add("message", sender);
 
   const span = document.createElement("span");
-  span.textContent = text;
-  div.appendChild(span);
+  if (isHtml) {
+    // safe: bot replies are controlled by server (we trust server)
+    span.innerHTML = textHtml;
+  } else {
+    // user messages: escape to prevent XSS
+    span.textContent = textHtml;
+  }
 
+  div.appendChild(span);
   chatWindow.appendChild(div);
   chatWindow.scrollTop = chatWindow.scrollHeight;
 }
 
 async function sendMessage() {
-  const text = input.value.trim();
-  if (!text) return;
+  const raw = input.value.trim();
+  if (!raw) return;
 
-  // show user message
-  addMessage("user", text);
+  // Show user message (escaped automatically via addMessage)
+  addMessage("user", raw, false);
   input.value = "";
 
   try {
@@ -28,16 +46,18 @@ async function sendMessage() {
       headers: {
         "Content-Type": "application/json"
       },
-      body: JSON.stringify({ message: text })
+      body: JSON.stringify({ message: raw })
     });
 
+    // parse JSON
     const data = await res.json();
     const reply = data.reply || "No reply from server.";
 
-    addMessage("bot", reply);
+    // Show bot message as HTML (server returns safe HTML for links)
+    addMessage("bot", reply, true);
   } catch (err) {
     console.error(err);
-    addMessage("bot", "⚠ Error connecting to server.");
+    addMessage("bot", "⚠️ Error connecting to server.", true);
   }
 }
 
@@ -49,14 +69,9 @@ input.addEventListener("keydown", e => {
   }
 });
 
-// initial welcome message
+// initial welcome message (bot, uses HTML allowed)
 addMessage(
   "bot",
-  "Hi! I'm your Placement Prep Bot\n\n" +
-    "Commands:\n" +
-    "• question - Get DSA Question of the Day\n" +
-    "• company <name> - Company-wise questions (e.g., company Amazon)\n" +
-    "• mark solved <id> - Mark a question as solved\n" +
-    "• progress - See your progress\n" +
-    "• help - Show this again"
+  "Hi! I'm your Placement Prep Bot 🤖<br/><br/>Type <code>help</code> to see commands.",
+  true
 );

@@ -517,12 +517,12 @@
   ],
   "userProgress": [
     {
-      "questionId": 9,
+      "questionId": 1,
       "status": "solved",
       "date": "2025-12-08"
     },
     {
-      "questionId": 1,
+      "questionId": 20,
       "status": "solved",
       "date": "2025-12-08"
     },
@@ -532,7 +532,12 @@
       "date": "2025-12-08"
     },
     {
-      "questionId": 20,
+      "questionId": 9,
+      "status": "solved",
+      "date": "2025-12-08"
+    },
+    {
+      "questionId": 34,
       "status": "solved",
       "date": "2025-12-08"
     }
